@@ -12,17 +12,35 @@ header {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+header h1 {
+  margin-bottom: 10px;
+}
+
 section {
   padding: 20px;
-  margin: 10px auto;
+  margin: 20px auto;
   max-width: 700px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 12px;
 }
 
+h2 {
+  color: #ffe0b2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
 a {
   color: #ffe0b2;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
